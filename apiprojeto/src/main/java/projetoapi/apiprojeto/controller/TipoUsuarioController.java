@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 
 @RestController
-@RequestMapping(value ="/TipoUsuario")   
+@RequestMapping(value ="/tipoUsuario")   
 public class TipoUsuarioController {
 
 
