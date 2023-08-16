@@ -13,14 +13,20 @@ import jakarta.persistence.Table;
 public class TipoUsuario {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy =  GenerationType.AUTO)
     private Long id;
     @Column (name = "TipoUsuários")
+   
     private String nome;
+
     private String sobrenome;
+  
     private int idade;
+ 
     private String cpf;
+   
     private String username;
+    
     private String password;
 
 
